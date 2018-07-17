@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context=".ExpensesManager">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="Welcome to our Service"
+        android:textColor="#ffffff"
+        android:textSize="50px" />
+
+
+
+    <!-- </RelativeLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+
+
+        android:background="@drawable/shadow">
+
+
+        <EditText
+            android:id="@+id/et7"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="20"
+            android:gravity="center"
+            android:hint="Enter User Id" />
+
+        <EditText
+            android:id="@+id/et8"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="128dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_id"
+            android:ems="20"
+            android:gravity="center"
+            android:hint="Enter your Name" />
+
+
+        <EditText
+            android:id="@+id/et9"
+            android:layout_width="300dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="172dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_salary"
+            android:ems="20"
+            android:gravity="center"
+            android:hint="Enter your Salary" />
+
+        <Button
+            android:id="@+id/btnManage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/shadow"
+            android:text="Manage" />
+
+    </RelativeLayout>
+</RelativeLayout>

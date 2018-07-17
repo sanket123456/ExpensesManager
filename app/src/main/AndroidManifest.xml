@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="astitva.expensesmanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ExpensesManager">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManageExpenses"
+            android:label="@string/title_activity_manage_expenses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Manage"
+            android:label="@string/title_activity_manage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Grocery"
+            android:label="@string/title_activity_grocery" />
+        <activity
+            android:name=".Vehicle"
+            android:label="@string/title_activity_vehicle" />
+        <activity
+            android:name=".Shopping"
+            android:label="@string/title_activity_shopping" />
+        <activity
+            android:name=".Electricity"
+            android:label="@string/title_activity_electricity" />
+        <activity
+            android:name=".Mobile"
+            android:label="@string/title_activity_mobile" />
+        <activity
+            android:name=".Others"
+            android:label="@string/title_activity_others"></activity>
+    </application>
+
+</manifest>
